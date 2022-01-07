@@ -1,0 +1,127 @@
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+    display: inline-flex; 
+}
+
+.navigation {
+    height: 69px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+
+}
+.logo {
+    height: 50px;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(/Users/lynneanderson/Desktop/Projects/teacozy/resources/images/img-mission-background.jpeg);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    background-color: black;
+
+}
+.missionback{
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tealist{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fallberry {
+    height: 200px;
+    width: 300px;
+}
+
+.spicedrum {
+    height: 200px;
+    width: 300px;
+}
+
+.donuts {
+    height: 200px;
+    width: 300px;
+}
+
+.myrtle {
+    height: 200px;
+    width: 300px;
+}
+
+.bedford {
+    height: 200px;
+    width: 300px;
+}
+figcaption{
+    padding-top: 10px;
+}
+
+.locations{
+    background-image: url(/Users/lynneanderson/Desktop/Projects/teacozy/resources/images/img-locations-background.webp);
+    height: 500px;
+    padding-top: 10px;
+}
+
+.locationboxes{
+    opacity: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.downtown{
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+}
+
+.eastbay{
+    background-color: black;
+    width:300px;
+    padding: 10px;
+}
+.oakdale{
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+}
+.footer{
+    justify-content: center;
+    height: 200px;
+}
+.contactinfo{
+    justify-content: center;
+}
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
